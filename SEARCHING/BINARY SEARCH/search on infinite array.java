@@ -4,7 +4,7 @@ public class Main{
     public static void main(String[] args){
         int[] nums={1,3,4,7,8,17,19,23,26,28,37,55,56,66};
         int target=37;
-        System.out.println("the result came is "+measure(nums,target));
+        System.out.println("the target is at index  "+measure(nums,target));
         
     }
     
