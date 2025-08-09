@@ -4,11 +4,19 @@ public class Main
 	public static void main(String[] args) {
 		int[] nums={3,4,5,6,7,8,9,0,1,2};
 		int target=3;
-		int resa=findPivot(nums);
-		System.out.println("the no.of rotations=>"+(resa+1));
-
+		
+       System.out.println(countofrotations(nums));
 	
 	}
+	
+	static int countofrotations(int[] nums){
+	    int resa=findPivot(nums);
+       /* if(resa==-1){
+            return 0;
+        }*/
+        //here if it return -1=>-1+1 means 0 zero means no rotations so we can just simply return resa+1
+        return resa+1;
+		}
 	
 	
 	
