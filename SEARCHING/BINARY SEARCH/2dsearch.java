@@ -1,4 +1,4 @@
-
+//this is row wise sorted and col wise sorted but not entire matrix is sorted for checking just write it in 1d array u can understand
 import java.util.*;
 public class Main
 {
