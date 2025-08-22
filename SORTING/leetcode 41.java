@@ -2,7 +2,7 @@
 import java.util.*;
 public class Main{
     	public static void main(String[] args){
-    	    int[] nums={1,2,0};
+    	    int[] nums={9,3,1,-2,5,0};
     	    int resa=missingpos(nums);
     	    System.out.println(resa);
     	    System.out.println(Arrays.toString(nums));
